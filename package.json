@@ -1,0 +1,26 @@
+{
+  "name": "TRC-20 Token",
+  "version": "1.0.0",
+  "description": "A secure and lightweight implementation of the TRC-20 token standard for the TRON blockchain",
+  "main": "contracts/Token.sol",
+  "scripts": {
+    "compile": "tronbox compile",
+    "test": "tronbox test",
+    "deploy": "tronbox migrate",
+    "deploy:mainnet": "tronbox migrate --network mainnet"
+  },
+  "keywords": [
+    "tron",
+    "trc20",
+    "token",
+    "blockchain",
+    "smart-contract",
+    "solidity"
+  ],
+  "author": "by-aneex",
+  "license": "MIT",
+  "devDependencies": {
+    "tronbox": "^2.6.0",
+    "tronweb": "^4.10.0"
+  }
+}
